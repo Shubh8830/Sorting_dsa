@@ -17,11 +17,12 @@ int main()
                 swap(v[j], v[j + 1]);
             }
         }
-        if(swapped == false){
+        if (swapped == false)
+        {
             break;
         }
     }
-    
+
     // printing
     for (int i = 0; i < n; i++)
     {
